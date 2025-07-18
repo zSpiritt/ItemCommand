@@ -1,9 +1,8 @@
-# SUPPORT : {PLAYER} {REMAINING}
+# SUPPORT : {PLAYER}
 items:
-  minecraft:stick:
-    cooldown: 30
-    message: "§cVous êtes encore en cooldown pendant {REMAINING} secondes"
   minecraft:slimeball:
-    cooldown: 60
-    message: "§cVous êtes encore en cooldown pendant {REMAINING} secondes"
+    removeItem: true
+    commands:
+      - "give {PLAYER} diamond 1"
+
 
